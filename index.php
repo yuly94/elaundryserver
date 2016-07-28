@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
-
   <!-- #Head. -->
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -13,16 +10,8 @@
     <link href="https://yuly94.github.io/assets/css/landingpage-style.min.css"       type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
 
-
-
-
-
   <!-- #Let's Begin -->
   <body>
-
-
-
-
 
     <!-- #Dropdown Structure (Must Be Before Nav) -->
     <ul id='dropdown1' class='dropdown-content'>
@@ -32,9 +21,6 @@
       <li class="divider">&nbsp;</li>
       <li><a id="cta__nav" href="#!"><strong>Pertolongan</strong></a></li>
     </ul>
-
-
-
 
     <!-- #Main Nav (Must Be After Dropdown Structure) -->
     <nav role="navigation">
@@ -54,9 +40,6 @@
       </div> 
     </nav>
 
-
-
-
     <!-- #Hero Section -->
     <div class="section section__hero" id="index-banner">
       <div class="container">
@@ -71,15 +54,12 @@
         <div class="row center">
 
 <div class="col s4 m3">
-
-  <a id="cta__main" href="admin" class="btn btn-large">Masuk Sebagai Admin &raquo;</a>
+  <a id="cta__main" href="dev-admin" class="btn btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Klik untuk masuk sebagai admin">Masuk Sebagai Admin &raquo;</a>
 </div>
 
 <div class="col s4 m9">
-
-  <a id="cta__main" href="customer" class="btn btn-large">Masuk Sebagai Konsumen &raquo;</a>
+ <a id="cta__main" href="dev-konsumen" class="btn btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Klik untuk masuk sebagai konsumen">Masuk Sebagai Konsumen &raquo;</a>
 </div>         
- 
         </div>
       </div>
     </div>
@@ -102,7 +82,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
       <script src="https://yuly94.github.io/assets/js/landingpage-init.js"></script>
       
-
     </body>
   </html>
 
